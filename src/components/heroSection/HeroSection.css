@@ -1,0 +1,74 @@
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+  }
+  
+  .hero-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
+  .hero-logo {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .hero-title {
+    font-size: 6rem;
+    font-family: "Serif";
+  }
+  
+  .hero-year {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .hero-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .hero-button:hover {
+    background: darkblue;
+  }
+
+  .hero-container::before {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    height: 150%;
+    border-top: 3px solid white;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 3;
+  }
+
+  
