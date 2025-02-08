@@ -1,0 +1,68 @@
+/* Center the container */
+.start-page-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #263cff, #34a853);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the card */
+  .start-page-card {
+    background-color: white;
+    color: #333;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  /* Input field styling */
+  .personality-input {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  /* Button styling */
+  .recommend-button {
+    padding: 12px 20px;
+    background-color: #263cff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .recommend-button:hover {
+    background-color: #1f32b5;
+  }
+  
+  .recommend-button:active {
+    transform: scale(0.95);
+  }
+  
+
+  .checkbox-container {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .checkbox-container input {
+    margin-right: 8px;
+  }
+  
