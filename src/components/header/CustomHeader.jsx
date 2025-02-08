@@ -16,8 +16,9 @@ const CustomHeader = () => {
   // const [logoutUser, { isLoading }] = useLazyLogoutUserQuery();
 
   const navigateToPage = (dest) => {
-    if (dest === "Home") navigate("/");
-    if (dest === "Plannings") navigate("/workoutplans");
+    if (dest === "Destination") navigate("/destination");
+    if (dest === "Plannings") navigate("/plannings");
+    if(dest === "Inspiration") navigate("/inspiration")
   };
 
   const handleLogout = async () => {
