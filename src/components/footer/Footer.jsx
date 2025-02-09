@@ -20,16 +20,7 @@ const Footer = () => {
         </div>
 
         {/* Subscribe Section */}
-        <div className="footer-subscribe">
-          <h3>SUBSCRIBE</h3>
-          <p className="footer-offer">Get 20% off your first order.</p>
-          <input type="email" placeholder="Email address" className="footer-input" />
-          <button className="footer-button">Subscribe now</button>
-          <p className="footer-policy">
-            Subscribe to Tourist newsletters and promotions. Read our{" "}
-            <span className="footer-link">Privacy Policy</span>.
-          </p>
-        </div>
+        
 
         {/* Footer Links */}
         <div className="footer-links">
